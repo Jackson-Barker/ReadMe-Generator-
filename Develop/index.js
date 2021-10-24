@@ -3,9 +3,8 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
-const questions = [
-    inquirer
-        .prompt([
+const questions = 
+   [
         {
             type: 'input',
             message: 'What is the project title?',
@@ -37,9 +36,10 @@ const questions = [
             name: 'test'
         },
         {
-            type: 'input',
+            type: 'list',
             message: 'Choose a license',
-            name: 'license'
+            name: 'license', 
+            choices: ['Apache', 'MIT', 'IBM', "Mozilla", "No license"]
         },
         {
             type: 'input',
@@ -56,8 +56,8 @@ const questions = [
             message: 'Enter image URL',
             name: 'image'
         },
-    ])
-]
+    ]
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
