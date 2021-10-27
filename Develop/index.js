@@ -51,11 +51,6 @@ const questions =
             message: 'Enter your email address',
             name: 'email'
         },
-        {
-            type: 'input',
-            message: 'Enter image URL',
-            name: 'image'
-        },
     ]
 
 
@@ -79,3 +74,5 @@ function init() {
 
 // Function call to initialize app
 init();
+
+

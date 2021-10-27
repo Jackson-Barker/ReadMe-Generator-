@@ -38,11 +38,10 @@ ${userInput.description}
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Features](#features)
 - [Github Profile](#github)
 - [Email](#email)
 - [Screenshot](#screenshot)
-- [Contribute](#contribute)
+- [Contribute](#contribution)
 - [Tests](#tests)
 ## Installation
 ${userInput.installation}
@@ -57,7 +56,6 @@ ${userInput.license}
 ## Email Address
 <a href="mailto:${userInput.email}">Email</a>
 ## Screenshot
-${userInput.image}
 ## How to Contribute
 ${userInput.contribution}
 ## Tests
